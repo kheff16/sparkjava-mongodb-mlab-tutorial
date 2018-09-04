@@ -49,6 +49,8 @@ If you wish to follow this tutorial completely, you should . . .
 
 # Installing MongoDB
 
+INSTRUCTOR NOTE, SEP 4 2018: HOLD OFF ON THIS STEP.  I'm not sure it's necessary. Let's see.
+
 You need the MongoDB Library installed on your computer. Follow one of these depending on which operating system you have.
 
 - [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/)
@@ -67,6 +69,7 @@ You need the MongoDB Library installed on your computer. Follow one of these dep
 ```
 mongodb://<dbuser>:<dbpassword>@d<dbhost>/<dbname>
 ```
+
 # Creating environment variables locally
 
 Since we're going to be logging into a remote database, we have to hide our login credentials from the outside world. To do this, we're going to make a ```.env``` file inside our project directory. It should have a structure similar to this.
